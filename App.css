@@ -1,0 +1,118 @@
+/*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 80, 80);
+  border-radius: 9px;
+  justify-content: center;
+}
+
+.nav--img {
+  width: 30px;
+  height: auto;
+  align-self: center;
+  margin-right: 8px;
+}
+
+.nav--para {
+  color: white;
+  font-size: 20px;
+}
+
+.full--div {
+  display: flex;
+  flex-direction: row;
+  margin: 80px;
+  margin-left: 50px;
+}
+
+.main--img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.text--1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.location--img {
+  width: 15px;
+  height: fit-content;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.location {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.link {
+  color: grey;
+  margin-top: 9px;
+  margin-left: 7px;
+}
+
+.text--2 {
+  margin-left: 25px;
+}
+
+.title--text {
+  margin-top: 2px;
+}
+
+.text--3 {
+  margin-left: 25px;
+}
+
+.para {
+  margin-left: 25px;
+}
